@@ -338,7 +338,187 @@ footer{
     position: relative;
     top:50%;
     left:50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) ;
     width: 100vw;
     height: 100vh;
+}
+@media screen and (min-device-width : 300px) and  (max-device-width : 1000px) {
+    .navul{
+        display: none;
+    }
+    .h-phone{
+        display: none;
+    }
+    header{
+        height: 50vh;
+    }
+    .h-cont{
+        float:left;
+        width: 90%;
+        position: relative;
+        left:50%;
+        top:50%;
+        transform: translateY(-50%) translateX(-50%);
+    }
+    #h-left{
+        width: 100vw;
+    }
+    #h-right{
+        display: none;
+    }
+    .nav{
+        margin-top: 3%;
+        width: 85vw;
+        height: 4vh;
+        position: absolute;
+        left:50%;
+        top: 0;
+        transform: translateX(-50%)
+    }
+    .h{
+        height: 85%;
+        width: 100%;
+    }
+    .navcont{
+        position: relative;
+        width: 100vw;
+        height: 14%;
+    }
+    .h-title{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        color:#11A4FF;
+        font-size: 8.3vw;
+        margin-top: 0;
+    }
+    .h-text{
+        font-family: 'Roboto', sans-serif;
+        font-size: 3.5vw;
+        font-weight: 400;
+        margin-top: 8.5%;
+    }
+    .button{
+        font-family: 'Noto Sans', sans-serif;
+        padding:2.2vw 6vw;
+        margin-top: 8%;
+        border-radius: 6px;
+        display: inline-block;
+        box-shadow: 0px 3px 20px rgba(17, 164, 255, 0.65);
+        color:white;
+        text-decoration: none;
+        font-size: 3vw;
+        position: relative;
+        overflow:hidden
+    }
+    .sec2{
+        height: 50vh;
+    }
+    .sec2-white{
+        width: 50vw;
+        height: 38%;
+        background: #fff;
+        box-shadow: 0px 3px 40px rgba(0, 0, 0, 0.15);
+        position: relative;
+        top:5%;
+        left:20vw;
+        transform: scale(1.4);
+        color:#11A4FF;
+    }
+    .sec2-blue{
+        width: 50vw;
+        height: 38%;
+        background: #11a4ff;
+        box-shadow: 0px 3px 45px rgba(17, 164, 255, 0.43);
+        position: absolute;
+        bottom:5%;
+        right:20vw;
+        transform: scale(1.4);
+        color:white;
+    }
+    .sec2-title{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 3.3vw;
+    }
+    .sec2-text{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3vw;
+        line-height: 1.3vh;
+    }
+    #sec3-left{
+        width: 100vw;
+        height: 50%;
+    }
+    #sec3-right{
+        width: 100vw;
+        height: 50%;
+    }
+    .sec3-text{
+        font-size: 2.5vw;
+    }
+    .sec3-title{
+        font-size: 5vw;
+    }
+    .sec3{
+        height: 60vh;
+    }
+    .h-phone2{
+        height: 100%;
+    }
+    #sec5-left{
+        width: 100vw;
+        height: 50%;
+    }
+    #sec5-right{
+        width: 100vw;
+        height: 50%;
+    }
+    .sec5{
+        height: 60vh;
+    }
+    .h-phone5{
+        height: 100%;
+    }
+    #sec4-left{
+        width: 100vw;
+        height: 50%;
+        transform:translateY(100%)
+    }
+    #sec4-right{
+        width: 100vw;
+        height: 50%;
+        transform:translateY(-100%)
+    }
+    .sec4{
+        height: 60vh;
+    }
+    .h-phone4{
+        height: 100%;
+    }
+    .team{
+        height: 60vh;
+    }
+    .t-titles{
+        font-size: 6vw;
+        margin-bottom:3%;
+    }
+    .t-hr{
+        width: 30%;
+        margin-top: 0;
+    }
+    .t-cont{
+        width: 60%;
+    }
+    .video{
+        height: 40vh;
+    }
+    .videoo{
+        height: 40vh;
+    }
+    footer{
+        height: 10vh;
+    }
+    .mwl{
+        font-size: 3vw;
+    }
 }
